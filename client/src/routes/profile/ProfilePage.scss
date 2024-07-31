@@ -1,0 +1,118 @@
+@import '../../responsive.scss';
+
+.profilePage{
+  display: flex;
+  height: 100%;
+
+  // @include md{
+  //   flex-direction: column;
+  //   overflow: scroll;
+  // }
+
+  .details{
+    flex :3;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+
+    // @include md{
+    //   flex: none;
+    //   height:max-content;
+    // }
+
+    .wrapper{
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .title{
+        display: flex;        
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        
+
+        h2{
+          font-weight: 300;
+        }
+
+        button{
+          padding: 12px 24px;
+          background-color: #fece51;
+          cursor: pointer;
+          border: none;
+        }
+      }
+
+      .info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        span{
+          display: flex;
+          align-items: center;
+          gap: 20px;
+        }
+
+        button{
+          width : 100px;
+          background-color: teal;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          cursor: pointer;
+        }
+
+        img{
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      .twolists{
+        display: flex;
+        flex-direction: row;
+        gap:30px;
+        justify-content: space-between;
+
+
+        @include md{
+          flex-direction: column;
+        }
+
+        .mylist{
+          // background-color: green;
+          padding: 20px 0px;
+          .wrapperbuttons{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            h2{
+              margin-bottom: 20px;
+            }
+            button{
+              padding: 12px 13px;
+              background-color: #fece51;
+              cursor: pointer;
+              border: none;
+          }
+          }
+        }
+      }
+    }
+  }
+
+  // .upgradeContainer{
+  //   flex:2;
+  //   background-color: #fcf5f3;
+  //   height: 100%;
+
+  //   .wrapper{
+  //     padding: 0px 20px;
+  //   }
+  // }
+}
