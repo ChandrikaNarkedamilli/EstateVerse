@@ -22,6 +22,7 @@ function ProfilePage() {
       await apiRequest.post('/auth/logout')
       localStorage.removeItem('user')
       navigate('/')
+      window.location.reload()
     } catch (error) {
       console.log(error)
     }

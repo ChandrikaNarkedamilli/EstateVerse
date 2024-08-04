@@ -25,7 +25,7 @@ dotenv.config()
   res.status(201).json({message : "User created Successfully"})
   }catch(err){
   console.error(err)
-  res.status(500).json({message : "Failed to create user"})
+  res.status(500).json({message : "User already exists"})
   }
 }
 

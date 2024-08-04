@@ -17,7 +17,7 @@ function NavBar() {
         </Link>
         <Link to='/'>Home</Link>
         <Link to='/'>Abouts</Link>
-        <Link to='/'>Contacts</Link>
+        <Link to='/list'>Properties</Link>
         <Link to='/'>Agents</Link>
       </div>
       <div className='right'>

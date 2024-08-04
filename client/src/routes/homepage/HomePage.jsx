@@ -13,7 +13,7 @@ function HomePage() {
       <div className="textContainer">
         <div className="wrapper">
           <h1 className='title'>Find Your Space in the EstateVerse & Unlock the Door to Your New Future</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam itaque ratione suscipit quam, architecto facere soluta nesciunt aut iste deserunt aliquam doloremque optio, mollitia perspiciatis? Inventore ratione quaerat rem?</p>
+          <p>Welcome to EstateVerse, where dreams meet reality. Discover the perfect property tailored to your unique needs and lifestyle. Join us on this journey and unlock endless possibilities for your future.</p>
           <SearchBar />
           <div className="boxes">
             <div className='box'>
